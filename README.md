@@ -33,7 +33,7 @@ A Trie is an advanced data structure that is sometimes also known as prefix tree
 
 Insertion proceeds by walking the Trie according to the string to be inserted, then appending new nodes for the suffix of the string that is not contained in the Trie.
 
-<img align="left" alt="Visual Studio Code" width="820px" height="500px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img2.png" />
+<img align="left" alt="Visual Studio Code" width="820px" height="400px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img2.png" />
 
 # Trie - Search
 
@@ -41,7 +41,7 @@ Insertion proceeds by walking the Trie according to the string to be inserted, t
 
 Searching proceeds the similar way by walking the Trie according to the string to be searched, returning false if the string is not found. 
 
-<img align="left" alt="Visual Studio Code" width="820px" height="500px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img3.png" />
+<img align="left" alt="Visual Studio Code" width="820px" height="400px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img3.png" />
 
 # Trie - Complexity
 
@@ -49,7 +49,7 @@ Searching proceeds the similar way by walking the Trie according to the string t
 
 The height (number of levels present) of this trie will always be 10. So, to search a contact, the algorithm will at most have to compare data 10 times.
 
-<img align="left" alt="Visual Studio Code" width="820px" height="500px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img4.png" />
+<img align="left" alt="Visual Studio Code" width="820px" height="400px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img4.png" />
 
 # Trie - Suggestion
 
@@ -57,4 +57,4 @@ The height (number of levels present) of this trie will always be 10. So, to sea
 
 By using tries, we can also offer suggestions to user. Suppose, user dialed ‘9223’, then we will traverse the trie till last dialed digit, and from that node, we will return all leaf nodes.
 
-<img align="left" alt="Visual Studio Code" width="820px" height="500px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img5.png" />
+<img align="left" alt="Visual Studio Code" width="820px" height="400px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img5.png" />
