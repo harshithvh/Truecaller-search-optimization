@@ -41,7 +41,7 @@ Insertion proceeds by walking the Trie according to the string to be inserted, t
 
 Searching proceeds the similar way by walking the Trie according to the string to be searched, returning false if the string is not found. 
 
-<img align="left" alt="Visual Studio Code" width="820px" height="300px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img3.png" />
+<img align="left" alt="Visual Studio Code" width="820px" height="400px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img3.png" />
 
 # Trie - Complexity
 
