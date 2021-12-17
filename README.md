@@ -26,3 +26,35 @@ With Truecaller we are making your dialling experience smarter and easier to use
 A Trie is an advanced data structure that is sometimes also known as prefix tree or digital tree. It is a tree that stores the data in an ordered and efficient way. We generally use trie's to store strings. Each node of a trie can have as many as 26 references (pointers).
 
 <img align="left" alt="Visual Studio Code" width="620px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img1.png" />
+
+# Trie - Insertion
+
+---
+
+Insertion proceeds by walking the Trie according to the string to be inserted, then appending new nodes for the suffix of the string that is not contained in the Trie.
+
+<img align="left" alt="Visual Studio Code" width="620px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img2.png" />
+
+# Trie - Search
+
+---
+
+Searching proceeds the similar way by walking the Trie according to the string to be searched, returning false if the string is not found. 
+
+<img align="left" alt="Visual Studio Code" width="620px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img3.png" />
+
+# Trie - Complexity
+
+---
+
+The height (number of levels present) of this trie will always be 10. So, to search a contact, the algorithm will at most have to compare data 10 times.
+
+<img align="left" alt="Visual Studio Code" width="620px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img4.png" />
+
+# Trie - Suggestion
+
+---
+
+By using tries, we can also offer suggestions to user. Suppose, user dialed ‘9223’, then we will traverse the trie till last dialed digit, and from that node, we will return all leaf nodes.
+
+<img align="left" alt="Visual Studio Code" width="620px" src="https://github.com/harshithvh/Truecaller-search-optimization/blob/main/img/img5.png" />
