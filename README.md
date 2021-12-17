@@ -17,4 +17,4 @@ Truecaller is a smartphone application that has features of caller-identificatio
 
 With Truecaller we are making your dialling experience smarter and easier to use. By using Truecaller as your default dialer you'll be able to quickly and easily access all your existing contacts, see more relevant information about them and also identify unknown numbers and block unwanted callers.
 
-<img align="left" alt="Visual Studio Code" width="820px" src="https://www.bing.com/images/blob?bcid=S2PJex7ziZcDDzrVarYKN3Gra-Hr.....70" />
+<img align="left" alt="Visual Studio Code" width="820px" src="https://www.bing.com/images/blob?bcid=S2PJex7ziZcDDzrVarYKN3Gra-Hr.....70.jpg" />
